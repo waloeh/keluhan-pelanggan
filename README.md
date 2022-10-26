@@ -4,37 +4,63 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
 ### **Software pendukung yang wajib disiapkan sebelum memulai**
 
 - Git minimal versi 2 atau versi terbaru
+- PHP minimal versi 8.0.2 atau versi terbaru
+- Composer
+- NodeJS minimal versi 16 atau versi terbaru
 
-----
+#
+## **Github Repository**
+### **1. Fork Repository**
 
-### **Clone Repository**
+1. Login ke [https://github.com](https://github.com) menggunakan akun anda
+2. Kunjungi repository yang sudah kami siapkan di url ini [https://github.com/eskalink-id/keluhanpelanggan-testdev](https://github.com/eskalink-id/keluhanpelanggan-testdev)
+3. Fork repository kami, dengan cara klik tombol Fork, seperti pada gambar ini:
+![image](https://user-images.githubusercontent.com/116535942/197926492-abaa21fd-752d-47e4-b8bf-f230e7efe99c.png)
 
-#### **- SourceTree**
-- Clone Repository
-  ```
-  https://bitbucket.org/eskalink-id/keluhanpelanggan.git
-  ```
-- Checkout branch sesuai Nomor Tes
-  ```
-  contoh: git checkout JKT-22000
-  ```
 
-#### **- Command Line atau Terminal (Linux)**
-- Clone repository
+
+### **2. Clone Repository**
+
+#### **- via Command Line atau Terminal (Linux)**
+- Clone melalui dafar repository anda (https://github.com/**yourusername**/keluhanpelanggan-testdev.git
   ```
-  git clone https://bitbucket.org/eskalink-id/keluhanpelanggan.git
+  git clone https://github.com/yourusername/keluhanpelanggan-testdev.git
   ```
 - Pada Command line arahkan ke folder keluhanpelanggan
-- Checkout branch sesuai Nomor Tes (via Command atau via Source Tree)
   ```
-  contoh: git checkout JKT-22000
+  cd keluhanpelanggan-testdev
   ```
+- Kemudian lakukan instalasi laravel dan npm, seperti **Panduan Instalasi** dibawah ini
+
+#
+### **3. Push Repository**
+
+Push source code ke repository kamu
+```
+git add .
+git commit -a -m "Commit source code tes"
+git push -u origin master
+```
+
+### **4. Pull Request ke Repository (eskalink-id/keluhanpelanggan-testdev)**
+
+1. Klik tab **Pull Request** dilayar github anda
+2. Tekan tombol **New Pull Request**
+2. **Pilih branch sesuai nomor Tes, lihat pada gambar berikut:**
+![image](https://user-images.githubusercontent.com/116535942/197924468-99369a22-c144-47cc-a0d0-f866d56acef2.png)
+
+3. **Tekan tombol Create Pull Request, kemudian isi pesannya**
+3. **Tekan tombol Create Pull Request**
+4. **Jika berhasil akan muncul informasi pull request pada repository eskalink-id/keluhanpelanggan-testdev**
+![image](https://user-images.githubusercontent.com/116535942/197925581-17a566fb-9545-4690-84aa-631d5ee961eb.png)
+
 
 ----
 
-### **Installation**
 
-- Buka Command Line arahkan ke folder ***keluhanpelanggan***
+### **Panduan Instalasi**
+
+- Buka Command Line arahkan ke folder ***keluhanpelanggan-testdev***
 - kemudian jalankan perintah:
   ```
   composer install
@@ -108,20 +134,5 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
 
 **Selamat mengerjakan, semoga sukses**
 
-----
-
-
-**Catatan: Jangan Lupa di push kembali ke bitbucket ya!**
-
-*berikut ini cara commit dan push:*
-
-```
-
-- git config --local user.email "your@email.com"
-- git config --local user.name "Yourname"
-
-- git add .
-- git commit -a -m "Commit hasil tes"
-- git push -u origin JKT-22000
-```
+#### **Jangan lupa melakukan pull request ke repository eskalink-id/keluhanpelanggan-testdev**
 
