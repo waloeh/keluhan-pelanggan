@@ -42,8 +42,16 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
   git add .
   git commit -a -m "Commit source code tes"
   git push -u origin master
+  
+  Username for 'https://github.com':
+  Password for 'https://your-username@github.com':
+
+  Catatan: masukkan access token yang digenerate sebagai pengganti password:
   ```
 
+#
+
+***Lakukan langkah ke 4 berikut ini, setelah anda menyelesaikan soal tes***
 ### **4. Pull Request ke Repository (eskalink-id/keluhanpelanggan-testdev)**
 Buka browser kemudian pilih repository **keluhanpelanggan-testdev** yang tadi anda Fork 
 1. Klik tab **Pull Request** dilayar github anda
