@@ -21,7 +21,7 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
 
 ### **2. Clone Repository**
 
-#### **- via Command Line atau Terminal (Linux)**
+#### **- via Git Bash (Windows) atau Terminal (Linux)**
 - Clone melalui dafar repository anda (https://github.com/**yourusername**/keluhanpelanggan-testdev.git
   ```
   git clone https://github.com/yourusername/keluhanpelanggan-testdev.git
