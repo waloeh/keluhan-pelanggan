@@ -45,7 +45,7 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
   ```
 
 ### **4. Pull Request ke Repository (eskalink-id/keluhanpelanggan-testdev)**
-
+Buka browser kemudian pilih repository **keluhanpelanggan-testdev** yang tadi anda Fork 
 1. Klik tab **Pull Request** dilayar github anda
 2. Tekan tombol **New Pull Request**
 2. **Pilih branch sesuai nomor Tes, lihat pada gambar berikut:**
