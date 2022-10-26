@@ -34,13 +34,15 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
 
 #
 ### **3. Push Repository**
-
-Push source code ke repository kamu
-```
-git add .
-git commit -a -m "Commit source code tes"
-git push -u origin master
-```
+- Sebelum push repository pastikan kamu membuat access token, pada menu developer settings, seperti pada gambar ini:
+![image](https://user-images.githubusercontent.com/116535942/197929940-6f9c0f49-0a88-4982-8ef7-4983696b42b4.png)
+- Tekan tombol Generate token yang ada dibawah 
+- Push source code ke repository kamu
+  ```
+  git add .
+  git commit -a -m "Commit source code tes"
+  git push -u origin master
+  ```
 
 ### **4. Pull Request ke Repository (eskalink-id/keluhanpelanggan-testdev)**
 
