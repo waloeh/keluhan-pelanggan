@@ -49,6 +49,11 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
   Catatan: masukkan access token yang digenerate sebagai pengganti password:
   ```
 
+  atau ketika muncul pop up seperti pada gambar berikut ini, pilih token lalu lakukan copy lalu paste token github anda:
+
+  ![image](https://user-images.githubusercontent.com/116535942/197950844-9ce4ac36-dc9e-4ab9-bbd0-1844c5fa99f2.png)
+
+
 #
 
 ***Lakukan langkah ke 4 berikut ini, setelah anda menyelesaikan soal tes***
