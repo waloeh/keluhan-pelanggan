@@ -3,71 +3,31 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
 
 ### **Software pendukung yang wajib disiapkan sebelum memulai**
 
-- Git minimal versi 2 atau versi terbaru
 - PHP minimal versi 8.0.2 atau versi terbaru
 - Composer
 - NodeJS minimal versi 16 atau versi terbaru
+- Git minimal versi 2 atau versi terbaru (Optional)
 
 #
 ## **Github Repository**
-### **1. Fork Repository**
 
-1. Login ke [https://github.com](https://github.com) menggunakan akun anda
-2. Kunjungi repository yang sudah kami siapkan di url ini [https://github.com/eskalink-id/keluhanpelanggan-testdev](https://github.com/eskalink-id/keluhanpelanggan-testdev)
-3. Fork repository kami, dengan cara klik tombol Fork, seperti pada gambar ini:
-![image](https://user-images.githubusercontent.com/116535942/197926492-abaa21fd-752d-47e4-b8bf-f230e7efe99c.png)
+### **1. Clone Repository atau Download ZIP**
 
-
-
-### **2. Clone Repository**
-
-#### **- via Git Bash (Windows) atau Terminal (Linux)**
-- Clone melalui dafar repository anda (https://github.com/**yourusername**/keluhanpelanggan-testdev.git
+- Clone via Git Bash (Windows) atau Terminal (Linux)
   ```
-  git clone https://github.com/yourusername/keluhanpelanggan-testdev.git
+  git clone https://github.com/eskalink-id/keluhanpelanggan-testdev.git
   ```
-- Pada Command line arahkan ke folder keluhanpelanggan
+  Setelah selesai pada Command line arahkan ke folder keluhanpelanggan-testdev, seperti perintah berikut:
   ```
   cd keluhanpelanggan-testdev
   ```
+- atau Download ZIP seperti pada gambar berikut:
+
+  ![image](https://user-images.githubusercontent.com/116535942/199644260-9be931e5-7f71-482c-8b52-7a5f918bd8b0.png)
+
+  setelah download selesai, extract zip ke folder yang anda inginkan
+
 - Kemudian lakukan instalasi laravel dan npm, seperti **Panduan Instalasi** dibawah ini
-
-#
-### **3. Push Repository**
-- Sebelum push repository pastikan kamu membuat access token, pada menu developer settings, seperti pada gambar ini:
-![image](https://user-images.githubusercontent.com/116535942/197929940-6f9c0f49-0a88-4982-8ef7-4983696b42b4.png)
-- Tekan tombol Generate token yang ada dibawah 
-- Push source code ke repository kamu
-  ```
-  git add .
-  git commit -a -m "Commit source code tes"
-  git push -u origin master
-  
-  Username for 'https://github.com':
-  Password for 'https://your-username@github.com':
-
-  Catatan: masukkan access token yang digenerate sebagai pengganti password:
-  ```
-
-  atau ketika muncul pop up seperti pada gambar berikut ini, pilih token lalu lakukan copy lalu paste token github anda:
-
-  ![image](https://user-images.githubusercontent.com/116535942/197950844-9ce4ac36-dc9e-4ab9-bbd0-1844c5fa99f2.png)
-
-
-#
-
-***Lakukan langkah ke 4 berikut ini, setelah anda menyelesaikan soal tes***
-### **4. Pull Request ke Repository (eskalink-id/keluhanpelanggan-testdev)**
-Buka browser kemudian pilih repository **keluhanpelanggan-testdev** yang tadi anda Fork 
-1. Klik tab **Pull Request** dilayar github anda
-2. Tekan tombol **New Pull Request**
-2. **Pilih branch sesuai nomor Tes, lihat pada gambar berikut:**
-![image](https://user-images.githubusercontent.com/116535942/197924468-99369a22-c144-47cc-a0d0-f866d56acef2.png)
-
-3. **Tekan tombol Create Pull Request, kemudian isi pesannya**
-3. **Tekan tombol Create Pull Request**
-4. **Jika berhasil akan muncul informasi pull request pada repository eskalink-id/keluhanpelanggan-testdev**
-![image](https://user-images.githubusercontent.com/116535942/197925581-17a566fb-9545-4690-84aa-631d5ee961eb.png)
 
 
 ----
@@ -143,11 +103,9 @@ Buka browser kemudian pilih repository **keluhanpelanggan-testdev** yang tadi an
 4. Ketika melakukan create dan update data berikan validasi sesuai dengan atribute table
 5. Buat command scheduller : 
    ```
-   - Menghapus keluhan jika flag_aktif bernilai false dan status_keluhan bernilai O (O = Open)
-   - Untuk mengubah nilai status_keluhan menjadi C (C = Close) jika sudah lewat 1 hari sejak keluhan dibuat
+   a. Menghapus keluhan jika flag_aktif bernilai false dan status_keluhan bernilai O (O = Open)
+   b. Untuk mengubah nilai status_keluhan menjadi C (C = Close) jika sudah lewat 1 hari sejak keluhan dibuat
    ```
 
 **Selamat mengerjakan, semoga sukses**
-
-#### **Jangan lupa melakukan pull request ke repository eskalink-id/keluhanpelanggan-testdev**
 
