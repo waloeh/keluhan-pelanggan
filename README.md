@@ -17,7 +17,7 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
   ```
   git clone https://github.com/eskalink-id/keluhanpelanggan-testdev.git
   ```
-  Setelah selesai pada Command line arahkan ke folder **keluhanpelanggan-testdev**, seperti perintah berikut:
+  Setelah selesai clone, pada Command line arahkan ke folder **keluhanpelanggan-testdev**, seperti perintah berikut:
   ```
   cd keluhanpelanggan-testdev
   ```
