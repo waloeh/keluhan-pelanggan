@@ -1,7 +1,7 @@
 ## **Petunjuk Pengunaan**
 Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deployment#server-requirements) yang siap digunakan untuk keperluan tes keahlian web developer
 
-### **Software pendukung yang wajib disiapkan sebelum memulai**
+### **Software pendukung yang perlu disiapkan sebelum memulai**
 
 - PHP minimal versi 8.0.2 atau versi terbaru
 - Composer
@@ -17,7 +17,7 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
   ```
   git clone https://github.com/eskalink-id/keluhanpelanggan-testdev.git
   ```
-  Setelah selesai pada Command line arahkan ke folder keluhanpelanggan-testdev, seperti perintah berikut:
+  Setelah selesai pada Command line arahkan ke folder **keluhanpelanggan-testdev**, seperti perintah berikut:
   ```
   cd keluhanpelanggan-testdev
   ```
@@ -108,4 +108,3 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
    ```
 
 **Selamat mengerjakan, semoga sukses**
-
