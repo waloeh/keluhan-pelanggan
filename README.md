@@ -21,7 +21,7 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
   ```
   cd keluhanpelanggan-testdev
   ```
-- atau **Download ZIP** jika anda tidak memiliki git di lokal komputer anda, seperti pada gambar berikut:
+- atau **Download ZIP** jika anda tidak memiliki git di lokal komputer anda, untuk mendownload klik tombol Download ZIP seperti pada gambar berikut:
 
   ![image](https://user-images.githubusercontent.com/116535942/199644260-9be931e5-7f71-482c-8b52-7a5f918bd8b0.png)
 
