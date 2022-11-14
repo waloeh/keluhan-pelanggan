@@ -103,10 +103,9 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
 
 3. Buat Controller  dengan nama KeluhanPelangganController untuk proses CRUD
 4. Ketika melakukan create dan update data berikan validasi sesuai dengan atribute table
-5. Buat command scheduller : 
-   ```
-   a. Menghapus keluhan jika flag_aktif bernilai false dan status_keluhan bernilai O (O = Open)
-   b. Untuk mengubah nilai status_keluhan menjadi C (C = Close) jika sudah lewat 1 hari sejak keluhan dibuat
-   ```
+   
+5. Buatlah function untuk menampilkan nilai dari:
+   - bilangan factorial dari inputan variable $nilai = 7.
+   - bilangan ganjil dari inputan variable $nilai = 20.
 
 **Selamat mengerjakan, semoga sukses**
