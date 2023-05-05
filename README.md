@@ -111,10 +111,11 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
     - dst.
     
 5. Buat fungsi export file untuk mengenerate data dari table keluhan_pelanggan agar bisa di download kedalam format file:
-    - .txt
-    - .csv
-    - .xls
-    - .pdf
+    - .txt (library maatwebsite/excel)
+    - .csv (library maatwebsite/excel)
+    - .xls (library maatwebsite/excel)
+    - .pdf (library dompdf/dompdf atau maatwebsite/excel)
+   
 
 
 **Bagian 2**
