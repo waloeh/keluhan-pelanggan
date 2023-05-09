@@ -110,6 +110,7 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
     - field nama, jika diisi lebih dari 50 digit, maka tampilkan error message: text too long, maximum 50 characters.
     - field nomor_hp, jika diisi dengan huruf/spasi/karakter khusus, maka tampilkan error: input numeric only.
     - dst.
+   
    (Bobot 10%)
     
 5. Buat fungsi export file untuk mengenerate data dari table keluhan_pelanggan agar bisa di download kedalam format file:
@@ -117,6 +118,7 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
     - .csv (library maatwebsite/excel)
     - .xls (library maatwebsite/excel)
     - .pdf (library dompdf/dompdf atau maatwebsite/excel)
+   
    (Bobot 20%)
 
 
@@ -125,6 +127,7 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
 Buatlah function yang dijalankan pada laravel command line (php artisan) untuk menampilkan nilai dari:
    - bilangan factorial dari inputan variable $nilai = 7.
    - bilangan ganjil dari inputan variable $nilai = 20.
+
 (Bobot 25%)
 
 
