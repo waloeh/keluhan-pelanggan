@@ -84,7 +84,7 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
 
 **Bagian 1**
 
-1. Pada halaman Keluhan Pelanggan buat fungsi create, read, update dan delete (CRUD) menggunakan axios atau ajax
+1. Pada halaman Keluhan Pelanggan buat fungsi create, read, update dan delete (CRUD) menggunakan axios atau ajax (Bobot 25%)
 
 2. Buat Model dengan nama **KeluhanPelanggan** serta migrationnya, dengan struktur table seperti berikut:
    ```
@@ -102,20 +102,22 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
    | keluhan        | text      |        | not null                                                |
    -------------------------------------------------------------------------------------------------
    ```
+   (Bobot 10%)
 
-3. Buat Controller  dengan nama KeluhanPelangganController untuk proses CRUD
+3. Buat Controller  dengan nama KeluhanPelangganController untuk proses CRUD (Bobot 10%)
 
 4. Ketika melakukan create dan update data berikan validasi sesuai dengan atribute table, contoh:
     - field nama, jika diisi lebih dari 50 digit, maka tampilkan error message: text too long, maximum 50 characters.
     - field nomor_hp, jika diisi dengan huruf/spasi/karakter khusus, maka tampilkan error: input numeric only.
     - dst.
+   (Bobot 10%)
     
 5. Buat fungsi export file untuk mengenerate data dari table keluhan_pelanggan agar bisa di download kedalam format file:
     - .txt (library maatwebsite/excel)
     - .csv (library maatwebsite/excel)
     - .xls (library maatwebsite/excel)
     - .pdf (library dompdf/dompdf atau maatwebsite/excel)
-   
+   (Bobot 20%)
 
 
 **Bagian 2**
@@ -123,6 +125,7 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
 Buatlah function yang dijalankan pada laravel command line (php artisan) untuk menampilkan nilai dari:
    - bilangan factorial dari inputan variable $nilai = 7.
    - bilangan ganjil dari inputan variable $nilai = 20.
+(Bobot 25%)
 
 
 **Selamat mengerjakan, semoga sukses**
