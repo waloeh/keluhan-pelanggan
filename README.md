@@ -86,7 +86,7 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
 
 1. Pada halaman Keluhan Pelanggan buat fungsi create, read, update dan delete (CRUD) menggunakan axios atau ajax (Bobot 25%)
 
-2. Buat Model dengan nama **KeluhanPelanggan** serta migrationnya, dengan struktur table seperti berikut:
+2. Buat Model dan migration untuk struktur table sebagai berikut:
    ```
    Nama Tabel: keluhan_pelanggan
    Struktur Tabel:
