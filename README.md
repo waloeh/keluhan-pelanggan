@@ -82,53 +82,61 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
 
 ## **Soal Tes Keahlian**
 
-**Bagian 1**
-
-1. Pada halaman Keluhan Pelanggan buat fungsi create, read, update dan delete (CRUD) menggunakan axios atau ajax (Bobot 25%)
-
-2. Buat Model dan migration untuk struktur table sebagai berikut:
+1. Buat Model, migration, dan seeder sebanyak 50 record untuk struktur table sebagai berikut:
    ```
    Nama Tabel: keluhan_pelanggan
    Struktur Tabel:
    -------------------------------------------------------------------------------------------------
    | Column Name    | Type Data | Length | Note                                                    |
    -------------------------------------------------------------------------------------------------
-   | id             | string    | 20     | not null primary key                                    |
-   | nama           | string    | 50     | not null                                                |
-   | email          | string    | 20     | not null                                                |
-   | nomor_hp       | integer   |        | null                                                    |
-   | flag_aktif     | boolean   |        | default true                                            |
+   | id             | bigint    |        | not null, primary key, autoincrement                    |
+   | nama           | varchar   | 50     | not null, min length 3                                  |
+   | email          | varchar   | 100    | not null                                                |
+   | nomor_hp       | varchar   | 15     | null, numeric only                                      |
    | status_keluhan | varchar   | 1      | not null default 'O' [0:Received, 1:In Process, 2: Done]|
-   | keluhan        | text      |        | not null                                                |
+   | keluhan        | varchar   | 255    | not null, min length 50                                 |
+   | created_at     | datetime  |        | not null                                                |
+   -------------------------------------------------------------------------------------------------
+
+   Nama Table: keluhan_status_his
+   Struktur Table:
+   -------------------------------------------------------------------------------------------------
+   | Column Name    | Type Data | Length | Note                                                    |
+   -------------------------------------------------------------------------------------------------
+   | id             | bigint    |        | not null, primary key, autoincrement                    |
+   | keluhan_id     | bigint    |        | not null, foreign key to keluhan_pelanggan.id           |
+   | status_keluhan | varchar   | 1      | not null  [0:Received, 1:In Process, 2: Done]           |
+   | updated_at     | datetime  |        | not null                                                |
    -------------------------------------------------------------------------------------------------
    ```
-   (Bobot 10%)
 
-3. Buat Controller  dengan nama KeluhanPelangganController untuk proses CRUD (Bobot 10%)
+2. Pada halaman Keluhan Pelanggan buat fungsi create, read, update, delete (CRUD), dan history data keluhan, menggunakan axios atau ajax.
+   Pada fungsi History data keluhan, munculkan informasi timeline data keluhan dari sejak data di create s.d status terakhir secara kronologis.
+   
+3. Buat Controller dengan nama KeluhanPelangganController untuk proses CRUD.
+   Setiap keluhan baru & perubahan status atas keluhan tsb, history data tersimpan di table keluhan_status_his.
 
 4. Ketika melakukan create dan update data berikan validasi sesuai dengan atribute table, contoh:
     - field nama, jika diisi lebih dari 50 digit, maka tampilkan error message: text too long, maximum 50 characters.
     - field nomor_hp, jika diisi dengan huruf/spasi/karakter khusus, maka tampilkan error: input numeric only.
     - dst.
-   
-   (Bobot 10%)
     
 5. Buat fungsi export file untuk mengenerate data dari table keluhan_pelanggan agar bisa di download kedalam format file:
     - .txt (library maatwebsite/excel)
     - .csv (library maatwebsite/excel)
     - .xls (library maatwebsite/excel)
     - .pdf (library dompdf/dompdf atau maatwebsite/excel)
+
+6. Buat 1 halaman menu dashboard yang menyajikan summary data keluhan pelanggan yang sudah diinput dengan ketentuan:
+    - pie chart berisi persentase total data keluhan pelanggan by status (Received, In Process, Done) di table keluhan_pelanggan
+    - column/bar chart berisi jumlah keluhan berdasarkan status keluhan selama 6 bulan terakhir dari table keluhan_status_his.
+    - table view berisi data top 10 keluhan dengan umur keluhan paling lama (umur keluhan dihitung dari pertama kali data di create s.d current date)
+    - Referensi dashboard: https://1drv.ms/x/s!AsNatlBKVuH5rACl8DLrzW_QmmJ_?e=YrV3gx&nav=MTVfe0VBNDg4NDZGLTRBMUQtN0Q0NS04OERDLTMwOEM1MjUzMDNBRX0
+
+7. Buat RestAPI fungsi crud untuk melakukan:
+    - update status by id keluhan
+    - delete status by id keluhan
+
+8. Buat unit test untuk salah satu fungsi crud.
    
-   (Bobot 20%)
-
-
-**Bagian 2**
-
-Buatlah function yang dijalankan pada laravel command line (php artisan) untuk menampilkan nilai dari:
-   - bilangan factorial dari inputan variable $nilai = 7.
-   - bilangan ganjil dari inputan variable $nilai = 20.
-
-(Bobot 25%)
-
-
 **Selamat mengerjakan, semoga sukses**
