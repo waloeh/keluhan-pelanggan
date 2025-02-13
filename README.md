@@ -1,5 +1,5 @@
 ## **Petunjuk Pengunaan**
-Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deployment#server-requirements) dan paket pengembangan antarmuka [***laravel/ui***](https://github.com/laravel/ui) yang siap digunakan. untuk keperluan tes keahlian web developer kali ini, Anda boleh menggunakan salah satu dari 2 cara pengembangan full-stack laravel, berikut pilihan yang kami butuhkan: 
+Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deployment#server-requirements) dan paket pengembangan antarmuka [***laravel/ui***](https://github.com/laravel/ui) yang siap digunakan. untuk keperluan tes keahlian web developer kali ini, Anda boleh menggunakan salah satu dari 2 cara pengembangan full-stack laravel, berikut pilihan yang kami bolehkan: 
 - Laravel + Blade atau
 - Laravel + Vue.js 
 
