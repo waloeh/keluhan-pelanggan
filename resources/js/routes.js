@@ -14,4 +14,14 @@ export const routes = [
         name: 'keluhan_pelanggan',
         component: () => import(/* webpackChunkName: "keluhan_pelanggan" */ './Pages/KeluhanPelanggan.vue')
     },
+    { 
+        path: '/form-keluhan/:id?',
+        name: 'form_keluhan',
+        component: () => import(/* webpackChunkName: "keluhan_pelanggan" */ './Pages/FormKeluhanPelanggan.vue')
+    },
+    {
+        path: '/detail-keluhan/:id?',
+        name: 'detail_keluhan',
+        component: () => import(/* webpackChunkName: "keluhan_pelanggan" */ './Pages/DetailKeluhanPelanggan.vue')
+    },
 ];
