@@ -73,7 +73,7 @@ Proyek ini menggunakan framework [Laravel 9](https://laravel.com/docs/9.x/deploy
 
 ----
 
-[![Tonton Demo]([https://img.youtube.com/vi/ID_VIDEO/0.jpg)](https://www.youtube.com/watch?v=ID_VIDEO](https://www.youtube.com/watch?v=9H0eJp7idbk))
+[!Tonton Demo](https://www.youtube.com/watch?v=9H0eJp7idbk)
 
 
 
